@@ -31,10 +31,10 @@ body{
 }
 .home{
  background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
- background-size: auto 100%;
- background-position: 0 0;
+ background-size: cover;
  color: white;
  padding: 180px 0 100px 0;
+ margin-bottom: 0;
 }
 .nyukai{
   background-color: green;
@@ -49,19 +49,23 @@ body{
 }
 .contents{
   text-align: center;
+  height: 450px;
+  margin-top: 0;
+  background-color: rgb(241, 241, 241);
+  padding: 100px 0 70px 0
 }
 .contents p{
   display: inline-block;
-  width: 355px;
+  width: 50%;
   font-size: 11px;
   color: rgb(128, 128, 128);
 }
-.first-content{
+.lesson{
   float: left;
   width: 50%;
 }
-.contents h2{
-  margin-top: 40px;
+.second-content{
+  display: block;
 }
 .icon{
   position: relative;
@@ -72,31 +76,22 @@ body{
   width: 100%;
   color: white;
 }
-.second-content h3{
-  margin-left: 180px;
-}
-.hip{
+footer{
+  padding-bottom: 30px;
   text-align: center;
-  margin-top: 50px;
-  height: 150px;
-  background-color: rgb(213, 213, 213);
+  border: 1px solid rgb(236, 236, 236);
 }
-.hip-text h2{
-  font-size: 20px;
-  padding-top: 20px;
-}
-.hip-text h4{
-  margin-top: 10px;
-}
-.hip a{
+
+footer a{
   background-color: rgb(67, 207, 19);
   padding: 10px;
   box-shadow: 0 7px green;
 }
-.hip a:active{
+footer a:active{
   position: relative;
   top:7px;
   box-shadow: none;
 }
+
 
 
