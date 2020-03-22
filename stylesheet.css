@@ -31,7 +31,7 @@ body{
 }
 .home{
  background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
- background-size: cover;
+ background-size: auto 100%;
  background-position: 0 0;
  color: white;
  padding: 180px 0 100px 0;
@@ -73,16 +73,17 @@ body{
   color: white;
 }
 .second-content h3{
-  position: absolute;
-  left: 225px;
+  margin-left: 180px;
 }
 .hip{
   text-align: center;
   margin-top: 50px;
   height: 150px;
+  background-color: rgb(213, 213, 213);
 }
 .hip-text h2{
   font-size: 20px;
+  padding-top: 20px;
 }
 .hip-text h4{
   margin-top: 10px;
@@ -97,4 +98,5 @@ body{
   top:7px;
   box-shadow: none;
 }
+
 
