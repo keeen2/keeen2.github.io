@@ -75,6 +75,7 @@ body{
   top: 75px;
   width: 100%;
   color: white;
+  text-shadow: 4px 6px #809391;
 }
 footer{
   padding-bottom: 30px;
@@ -92,6 +93,12 @@ footer a:active{
   top:7px;
   box-shadow: none;
 }
+
+@media screen and (max-width : 400px ){
+  .contents p{
+    font-size: 6px;
+  }
+  }
 
 
 
