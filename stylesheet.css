@@ -49,10 +49,11 @@ body{
 }
 .contents{
   text-align: center;
-  height: 450px;
+  height: 470px;
   margin-top: 0;
   background-color: rgb(241, 241, 241);
   padding: 100px 0 70px 0
+
 }
 .contents p{
   display: inline-block;
@@ -96,6 +97,6 @@ footer a:active{
 
 @media screen and (max-width : 400px ){
   .contents p{
-    font-size: 2px;
+    font-size: 6px;
   }
   }
