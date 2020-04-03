@@ -96,6 +96,6 @@ footer a:active{
 
 @media screen and (max-width : 400px ){
   .contents p{
-    font-size: 4px;
+    font-size: 2px;
   }
   }
